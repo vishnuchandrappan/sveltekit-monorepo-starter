@@ -2,4 +2,6 @@
 	import '../app.css';
 </script>
 
-<slot />
+<div class="h-screen w-screen bg-gradient-to-r from-indigo-500 to-blue-950">
+	<slot />
+</div>
