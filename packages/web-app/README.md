@@ -12,21 +12,15 @@ Everything you need to build an awesome Svelte project, powered by [`create-svel
 npm install # with @antfu/ni, just run `ni`
 ```
 
-## One-time setup
-
-```bash
-  pnpm run init
-```
-
 ## Developing
 
 Start a development server:
 
 ```bash
-pnpm run dev # nr dev
+npm run dev # nr dev
 
 # or start the server and open the app in a new browser tab
-pnpm run dev -- --open
+npm run dev -- --open
 ```
 
 ## Building
@@ -34,9 +28,13 @@ pnpm run dev -- --open
 To create a production version of your app:
 
 ```bash
-pnpm run build
+npm run build
 ```
 
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Icons
+
+[Icones](https://icones.js.org/)

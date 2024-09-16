@@ -1,0 +1,32 @@
+{
+  "name": "@my-app/common",
+  "version": "1.0.0",
+  "private": "true",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": {
+      "default": "./dist/*",
+      "types": "./dist/*.d.ts"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "init": "echo \"Warning: not implemented\"",
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "prepare": "pnpm build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "globby": "^14.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "tsup": "^8.0.2",
+    "typescript": "latest"
+  }
+}
